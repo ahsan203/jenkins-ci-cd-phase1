@@ -11,6 +11,7 @@
 	<groupId>com.ahsan</groupId>
 	<artifactId>Srping-Jenkins-Phase1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Srping-Jenkins-Phase1</name>
 	<description>Demo project for Spring Boot with Jenkins Part-1`</description>
 	<url/>
@@ -80,6 +81,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>ahsans-jenkins-ci-cd-phase1</finalName>
 	</build>
 
 </project>
