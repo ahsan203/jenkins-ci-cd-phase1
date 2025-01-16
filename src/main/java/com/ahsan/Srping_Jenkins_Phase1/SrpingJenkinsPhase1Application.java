@@ -17,7 +17,7 @@ public class SrpingJenkinsPhase1Application {
 		//name.split(" ",)[0];
 
 		name = name.split(" ")[0];
-		return "Hello " + name + " This is the Demo of using Jenkins for CI/CD with Configuration-Approach."
+		return "Hello " + name + " This is the Demo of using Jenkins for CI/CD with Configuration-Approach.";
 	}
 
 	public static void main(String[] args) {
