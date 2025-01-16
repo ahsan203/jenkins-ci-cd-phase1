@@ -14,6 +14,9 @@ public class SrpingJenkinsPhase1Application {
 	@GetMapping("/greetings/{name}")
 	public String greetings(@PathVariable String name)
 	{
+		//name.split(" ",)[0];
+
+		name = name.split(" ")[0];
 		return "Hello " + name + " This is the Demo of using Jenkins for CI/CD with Configuration-Approach.";
 	}
 
