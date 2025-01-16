@@ -81,7 +81,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>ahsans-jenkins-ci-cd-phase1</finalName>
+		<finalName>Ahsans-Jenkins-CI-CD-Phase-1</finalName>
 	</build>
 
 </project>
