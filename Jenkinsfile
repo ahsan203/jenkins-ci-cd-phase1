@@ -1,3 +1,4 @@
+/*
 pipeline {
     agent any
 
@@ -10,12 +11,10 @@ pipeline {
 
         //--SCM Checkout---> build---> deploy WAR----> Send Email
 
-
-
-
         stage('SCM Checkout'){
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ahsan203/jenkins-ci-cd-phase1.git']])
+                checkout scmGit(branches: [[name: '*//*
+main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ahsan203/jenkins-ci-cd-phase1.git']])
             }
 
         }
@@ -29,16 +28,6 @@ pipeline {
 
             }
         }
-
-
-        stage("Deploy to Tomcat"){
-
-            steps {
-                deploy adapters: [tomcat9(credentialsId: 'tomcat-pwd', path: '', url: 'http://localhost:4949/')], contextPath: 'Ahsans-Jenkins-CI-CD-Phase-1', war: '**/*.war'
-            }
-        }
-
-
 
     }
 
@@ -55,3 +44,4 @@ pipeline {
 }
 
 }
+ */
